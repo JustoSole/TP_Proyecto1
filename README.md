@@ -1,6 +1,8 @@
 <h1>Covid 19 en Argentina</h1>
 <h2>Por Justo Soleño</h2>
 
+covid.html
+
 En este informe se busca analizar el impacto del covid 19 en la poblacion Argentina. Para realizar el analisis se utilizo la base de datos provista por el ministerio de Salud de la Nacion Argentina. Se utIlizaron diveresas herramientas dentro de las cuales se valen mencionar SQL, Tableau, Python, html y Github.
 
 <h2>Coinsideraciones preliminares</h2>
