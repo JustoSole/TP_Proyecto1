@@ -24,13 +24,12 @@
 En este informe se busca analizar el impacto del covid 19 en la poblacion Argentina. Para realizar el analisis se utilizo la base de datos provista por el ministerio de Salud de la Nacion Argentina. Se utIlizaron diveresas herramientas dentro de las cuales valen mencionar SQL, Tableau, Python, html y Github.<br>
 La base de datos utilizada no ha sido actualizada en el ultimo tiempo por lo que nuestro analisis alcanza hasta el 22/05/2022. Tambien es importante aclarar que esta base presenta inconsistencias en su informacion tales como campos nulos, fechas mal cargadas y lugares que no existen en el territorio argentino.
 
-Algunas de las preguntas que se buscan responder en este informe son las siguientes:<br>
-<li>Coffee</li>
 
 <h3>Analisis del covid 19 en Argentina</h3>
 Total de contagiados: 4.631.610 <br>
 Total de internados: 253.344 <br>
-Total de fallecidos: 77.115
+Total de fallecidos: 77.115 <br>
+<br>
 </head>
 <body>
 	 <div class="container"> 
@@ -39,12 +38,25 @@ Total de fallecidos: 77.115
 		 <center>
 		<div class='tableauPlaceholder' id='viz1657742060580' style='position: relative'><noscript><a href='#'><img alt='Muertes Covid ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Proyecto1Covid&#47;MuertesCovid&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Proyecto1Covid&#47;MuertesCovid' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Proyecto1Covid&#47;MuertesCovid&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1657742060580');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1466px';vizElement.style.height='995px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 		 </center>
+La mortalidad del virus se fue reduciendo por consecuencia de que la poblacion se empezo a vacunar.El indice de mortalidad se calculo como el cosciente entre las personas fallecidas y la poblacion de la provincia en cuestion La primeras dosis se empezaron a aplicar a fines de Diciembre del 2020.</br>
+Las provincias con la tasa de mortalidad mas alta en el pais son:<br>
+	<ol>
+	<li>CABA(Para el analisis se la coinsidera una provincia mas)</li>
+	<li>Neuquen</li>
+	<li>Tierra del Fuego</li>
+	</ol>
+Las provincias con la tasa de mortalidad mas baja en el pais son:<br>
+	<ol>
+	<li>Misiones</li>
+	<li>Santiago del Estero</li>
+	<li>Corrientes</li>
+	</ol>
 <h4>Infecciones</h4>
 		 <center>
                  <div class='tableauPlaceholder' id='viz1657743924669' style='position: relative'><noscript><a href='#'><img alt='Infectados ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Proyecto1Covid&#47;Infectados&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Proyecto1Covid&#47;Infectados' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Proyecto1Covid&#47;Infectados&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1657743924669');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1466px';vizElement.style.height='995px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>		</center>
 <h4>Testeos</h4>
 		 <center>
-		
+		<div class='tableauPlaceholder' id='viz1657744509512' style='position: relative'><noscript><a href='#'><img alt='Testeos ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Proyecto1Covid&#47;Testeos&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Proyecto1Covid&#47;Testeos' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Proyecto1Covid&#47;Testeos&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1657744509512');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1466px';vizElement.style.height='995px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 		</center>
 	</div>
 </body>
